@@ -4,12 +4,12 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='pt-32 pb-10'>
+    <div className='pt-32 pb-10 bg-black/[0.96] text-white'>
         <article className="max-w-[40rem] mx-auto">
     <header className="mb-4">
-        <h1 className="text-4xl font-extrabold text-slate-900">How I Became Who I Am Today</h1>
+        <h1 className="text-4xl font-extrabold text-white">How I Became Who I Am Today</h1>
     </header>
-    <div className="text-slate-600 [&>p]:my-6 [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&_strong]:font-medium [&_strong]:text-slate-900 [&_a]:font-medium [&_a]:text-indigo-500 [&_a]:underline [&_a:hover]:no-underline [&_img]:rounded-xl [&_blockquote]:italic [&_blockquote]:before:block [&_blockquote]:before:w-[18px] [&_blockquote]:before:h-[17px]  [&_blockquote]:before:bg-no-repeat [&_blockquote]:before:mb-2 [&_figcaption]:text-center [&_figcaption]:text-xs [&_figcaption]:italic [&_figcaption]:mt-3">
+    <div className="text-white [&>p]:my-6 [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&_strong]:font-medium [&_strong]:text-blue-700 [&_a]:font-medium [&_a]:text-blue-500 [&_a]:underline [&_a:hover]:no-underline [&_img]:rounded-xl [&_blockquote]:italic [&_blockquote]:before:block [&_blockquote]:before:w-[18px] [&_blockquote]:before:h-[17px]  [&_blockquote]:before:bg-no-repeat [&_blockquote]:before:mb-2 [&_figcaption]:text-center [&_figcaption]:text-xs [&_figcaption]:italic [&_figcaption]:mt-3">
         <p>
             Once upon a time, in a bustling city, Alex lived and breathed software development. The world of coding fascinated me, and I was <strong>determined to leave my mark on it</strong>. With a passion for <a href="#0">innovation</a> and a desire to create, I embarked on a journey that would forever change my life.
         </p>
