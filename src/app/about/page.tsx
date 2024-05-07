@@ -18,7 +18,7 @@ function page() {
                 <Image className="object-cover h-[180px] sm:h-auto" width="640" height="426" src="/me/me.jpg" alt="Article 01" />
             </figure>
             <blockquote>
-                <p>Looking back on my journey, I realized that becoming popular wasn't just about the numbers or the recognition—it was about the impact I had on others and the possibility of helping by sharing my personal and professional knowledge.</p>
+                <p>Looking back on my journey, I realized that becoming popular wasn&apos;t just about the numbers or the recognition—it was about the impact I had on others and the possibility of helping by sharing my personal and professional knowledge.</p>
             </blockquote>
         </div>
         <p>
@@ -40,7 +40,7 @@ function page() {
         </p>
         <figure className="md:-mx-12">
             <Image className="object-cover h-[180px] sm:h-auto" width="736" height="240" src="/me/me.jpg" alt="Article 03" />
-            <figcaption>Moments of tranquility amidst nature's beauty</figcaption>
+            <figcaption>Moments of tranquility amidst nature&apos;  s beauty</figcaption>
         </figure>
         <p>
             As I delved deeper into the intricacies of programming, a whole new universe of possibilities unfurled before me. Lines of code danced across my screen like a symphony, each keystroke resonating with the potential to bring my visions to life. From the early days of tinkering with simple programs to the <a href="#0">ambitious projects</a> that followed, my thirst for knowledge and creative expression grew insatiable.
