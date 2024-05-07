@@ -28,7 +28,7 @@ const About = () => {
                 <h3 className='text-2xl'>Get to know me!</h3>
                 <p className='text-sm pt-6'>I&apos; m a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
                 <p className='text-sm pt-6'>I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming</p>
-                <p className='text-sm pt-6'>I&apos;m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+                <p className='text-sm pt-6'>I&apos;m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to contact me.</p>
                 <div className='mt-6'>
                 <Button
         borderRadius="1.75rem"
