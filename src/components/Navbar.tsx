@@ -33,6 +33,13 @@ export function Navbar({ className }: { className?: string }) {
           item="Contact Us">
         </MenuItem>
         </Link>
+        <Link href={"/about"}>
+        <MenuItem
+          setActive={setActive}
+          active={active}
+          item="About me">
+        </MenuItem>
+        </Link>
       
     </Menu>
   </div>
