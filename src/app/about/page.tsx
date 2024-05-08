@@ -5,7 +5,7 @@ import React from 'react'
 function page() {
   return (
     <div className='pt-32 pb-10 bg-black/[0.96] text-white'>
-        <article className="max-w-[40rem] mx-auto">
+        <article className="max-w-[40rem] mx-auto px-3 md:px-0">
     <header className="mb-4">
         <h1 className="text-4xl font-extrabold text-white">How I Became Who I Am Today</h1>
     </header>

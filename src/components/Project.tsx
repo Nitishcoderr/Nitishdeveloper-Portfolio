@@ -17,7 +17,7 @@ const Project = () => {
                   alt="img"
                 />
         </div>
-        <div className="flex flex-col justify-center w-full md:w-[50%] px-12">
+        <div className="flex flex-col justify-center w-full md:w-[50%] md:px-12">
             <h3 className="text-3xl">Jalebi</h3>
             <p className="text-sm py-6">Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.</p>
             <div className='mt-6'>
