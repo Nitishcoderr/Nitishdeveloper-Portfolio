@@ -1,54 +1,56 @@
 "use client";
-import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar-menu";
-import { cn } from "@/utils/cn";
-import Link from "next/link";
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import LogoLink from './LogoLink';
+import DesktopNavLink from './DesktopNavLink';
+import MobileMenuButton from './MobileMenuButton';
+import MobileDrawer from './MobileDrawer';
+import Image from 'next/image';
 
 
-export function Navbar({ className }: { className?: string }) {
-  const [active, setActive] = useState<string | null>(null);
+export function Navbar() {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
   return (
-    <div className={cn('fixed top-10 inset-x-0 max-w-2xl mx-auto z-50', className)}>
-    <Menu setActive={setActive}>
-      <Link href={'/'}>
-        <MenuItem
-          setActive={setActive}
-          active={active}
-          item="Home">
-        </MenuItem>
-        </Link>
-      <Link href={'/project'}>
-        <MenuItem
-          setActive={setActive}
-          active={active}
-          item="Projects">
-        </MenuItem>
-        </Link>
-        {/* <MenuItem setActive={setActive} active={active} item='Our Course'>
-          <div className='flex flex-col space-y-4 text-sm '>
-        <HoveredLink href="/courses">All Courses</HoveredLink>
-        <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
-        <HoveredLink href="/courses">Advanced Composition</HoveredLink>
-        <HoveredLink href="/courses">Songwriting</HoveredLink>
-        <HoveredLink href="/courses">Music Production</HoveredLink>
-          </div>
-        </MenuItem> */}
-        <Link href={"/contact"}>
-        <MenuItem
-          setActive={setActive}
-          active={active}
-          item="Contact Us">
-        </MenuItem>
-        </Link>
-        <Link href={"/about"}>
-        <MenuItem
-          setActive={setActive}
-          active={active}
-          item="About me">
-        </MenuItem>
-        </Link>
-      
-    </Menu>
+    <>
+    <div className="hidden sticky z-10 shadow-xl top-0 py-6 sm:flex flex-row items-center justify-between px-12 w-full bg-black text-white">
+    <div className="mb-4  sm:mb-0">
+    <Link href="/">
+      <Image  src="/me/logo.png"
+                  height="50"
+                  width="50"
+                  className=" rounded-full"
+                  alt="img" />
+    </Link>
   </div>
+  <div>
+    <ul className="flex flex-row gap-x-10">
+      <li className="text-xl hover:text-blue-900 font-semibold">
+        <Link href="/">Home</Link>
+      </li>
+      <li className="text-xl hover:text-blue-900 font-semibold">
+      <Link href="/project">Project</Link>
+      </li>
+      <li className="text-xl hover:text-blue-900 font-semibold">
+      <Link href="/about">About</Link>
+      </li>
+      <li className="text-xl hover:text-blue-900 font-semibold">
+      <Link href={"/contact"}>Contact</Link>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <div className="sm:hidden relative flex flex-row my-4">
+    <LogoLink />
+    <MobileMenuButton onClick={handleDrawerToggle} />
+    <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
+  </div>
+  </>
   );
 }

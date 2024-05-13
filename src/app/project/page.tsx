@@ -4,7 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import projectData from '@/data/projectData.json'
 
+
+
 const page = () => {
+
   return (
     <div className='pt-32 pb-10 bg-black/[0.96] text-white'>
       <div className="flex justify-center items-center flex-wrap gap-5">
@@ -48,8 +51,12 @@ const page = () => {
                 translateZ={20}
                 as="button"
                 className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                
               >
+              <Link href={`/project/${item.id}`}>
                 Case Study
+              </Link>
+              
               </CardItem>
             </div>
           </CardBody>

@@ -11,9 +11,8 @@ const technologies = [
     { id: 7, name: 'SASS' },
     { id: 8, name: 'GIT' },
     { id: 9, name: 'Github' },
-    { id: 10, name: 'Responsive Design' },
-    { id: 11, name: 'SEO' },
-    { id: 12, name: 'Terminal' }
+    { id: 10, name: 'SEO' },
+    { id: 11, name: 'Terminal' }
   ];
   
   
@@ -38,18 +37,17 @@ const About = () => {
       </Button>
                 </div>
             </div>
-            <div className="w-full md:w-[50%] mt-12 md:mt-0">
+            <div className="w-full md:w-[50%] mt-12 md:mt-0 md:pl-10">
                 <p className='text-2xl pl-6'>My Skills</p>
-                <div className='flex justify-center flex-wrap'>
+                <div className='flex flex-wrap'>
                 {
                     technologies.map((item)=>(
                         <div key={item.id} className="mx-3 my-3">
-                        <Button 
-        borderRadius="1.75rem"
-        className="bg-white h-16  dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                        <button 
+        className="bg-white w-24 py-1 rounded-lg  dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
       >
         {item.name}
-      </Button>             
+      </button>             
                         </div>
                     ))
                 }
