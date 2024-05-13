@@ -11,9 +11,9 @@ const Project = () => {
         <div className="w-full md:w-[50%]">
         <Image
                   src="/project/jalebi.png"
-                  height="1000"
-                  width="1000"
-                  className="h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  height="50"
+                  width="50"
+                  className="w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="img"
                 />
         </div>

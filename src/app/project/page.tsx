@@ -9,7 +9,7 @@ import projectData from '@/data/projectData.json'
 const page = () => {
 
   return (
-    <div className='pt-32 pb-10 bg-black/[0.96] text-white'>
+    <div className='pt-12 pb-10 bg-black/[0.96] text-white'>
       <div className="flex justify-center items-center flex-wrap gap-5">
       {
         projectData.projects.map((item)=>(
