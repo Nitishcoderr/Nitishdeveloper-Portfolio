@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const LogoLink = () => {
   return (
-    <div className="mb-4 text-center sm:mb-0">
+    <div >
     <Link href="/">
       <Image  src="/me/logo.png"
                   height="50"

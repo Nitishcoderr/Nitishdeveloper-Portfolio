@@ -2,9 +2,17 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 const MobileDrawer = ({ isOpen, onClose }:any) => {
+
+
+  const handleLinkClick = () => {
+    // Close the drawer when a link is clicked
+    onClose();
+  };
+
+
   return (
     <div
-    className={`fixed flex flex-col justify-center items-center z-10 top-0 right-0 h-full w-full bg-white text-black transition-transform duration-300 transform ${
+    className={`fixed flex flex-col justify-center items-center z-[100] top-0 right-0 h-full w-full bg-background text-text transition-transform duration-300 transform ${
       isOpen ? 'translate-x-0' : 'translate-x-full'
     }`}
   >
@@ -12,17 +20,17 @@ const MobileDrawer = ({ isOpen, onClose }:any) => {
       <FontAwesomeIcon className="text-5xl" icon={faXmark} />
     </button>
     <ul className="flex flex-col justify-center items-center space-y-4">
-      <li className="text-3xl hover:text-blue-900 hover:font-semibold">
-        <Link href="/">Home</Link>
+      <li className="text-3xl hover:text-accent hover:font-semibold">
+        <Link onClick={handleLinkClick} href="/">Home</Link>
       </li>
-      <li className="text-3xl hover:text-blue-900 hover:font-semibold">
-      <Link href="/project">Project</Link>
+      <li className="text-3xl hover:text-accent hover:font-semibold">
+      <Link onClick={handleLinkClick} href="/project">Project</Link>
       </li>
-      <li className="text-3xl hover:text-blue-900 hover:font-semibold">
-      <Link href="/about">About</Link>
+      <li className="text-3xl hover:text-accent hover:font-semibold">
+      <Link onClick={handleLinkClick} href="/about">About</Link>
       </li>
-      <li className="text-3xl hover:text-blue-900 hover:font-semibold">
-      <Link href={"/contact"}>COntact</Link>
+      <li className="text-3xl hover:text-accent hover:font-semibold">
+      <Link onClick={handleLinkClick} href={"/contact"}>Contact</Link>
       </li> 
     </ul>
   </div>

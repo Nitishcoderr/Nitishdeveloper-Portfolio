@@ -1,34 +1,33 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="grid grid-cols-2 bg-gradient-to-r from-zinc-900 to-slate-500 py-12 px-12 justify-items-center">
-      <div className='px-24'>
-        <p className='text-white text-3xl'>Nitish Chaurasiya</p>
-        <p className='text-white mt-6'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+    <div className="flex flex-col md:flex-row text-white bg-black py-4 md:py-12 px-3 md:px-12 justify-items-center">
+      <div className='md:px-24 px-3'>
+        <p className=' text-3xl'>Nitish Chaurasiya</p>
+        <p className=' mt-6'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
       </div>  
-      <div className="">
-        <p className='text-white text-3xl'>Social</p>
-        <div className='flex items-center mt-6'>
-        <Link className='mr-4' href='/'>
-        <FaLinkedin fontSize="2rem" color='white' />
-            </Link>
-        <Link className='mr-4' href='/'>
-        <FaInstagram fontSize="2rem" color='white' />
-            </Link>
-        <Link className='mr-4' href='/'>
-        <FaGithub fontSize="2rem" color='white' />
-            </Link>
-        <Link className='mr-4' href='/'>
-        <FaTwitter fontSize="2rem" color='white' />
-            </Link>
+      <div className="py-6  px-3">
+        <p className=' text-3xl'>Social</p>
+        <div className='flex items-center justify-center mt-6'>
+          <Link href='/'>
+            <FaLinkedin className='mr-6' fontSize="2rem" color='white' />
+          </Link>
+          <Link href='/'>
+            <FaInstagram className='mr-6' fontSize="2rem" color='white' />
+          </Link>
+          <Link href='/'>
+            <FaGithub className='mr-6' fontSize="2rem" color='white' />
+          </Link>
+          <Link href='/'>
+            <FaTwitter className='mr-6' fontSize="2rem" color='white' />
+          </Link>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
