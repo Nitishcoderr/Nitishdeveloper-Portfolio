@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import LogoLink from './LogoLink';
@@ -15,10 +15,25 @@ export function Navbar() {
     setIsDrawerOpen(!isDrawerOpen);
   };
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
-    <div className="hidden sticky z-10 shadow-xl top-0 py-6 sm:flex flex-row items-center justify-between px-12 w-full bg-background text-text">
-    <div className="mb-4  sm:mb-0">
+    <div className={`hidden fixed w-full z-10 sm:flex flex-row items-center justify-between px-12 ${isScrolled ? 'bg-white text-black' : 'bg-transparent text-white'} transition-all duration-300 text-black h-40`}>
+    <div className="mb-4 pt-20 sm:mb-0">
     <Link href="/">
       <Image  src="/me/logo.png"
                   height="50"
@@ -28,17 +43,17 @@ export function Navbar() {
     </Link>
   </div>
   <div>
-    <ul className="flex flex-row gap-x-10">
-      <li className="text-xl hover:text-accent font-semibold">
+    <ul className="flex flex-row gap-x-10 pt-20">
+      <li className="text-xl font-semibold">
         <Link href="/">Home</Link>
       </li>
-      <li className="text-xl hover:text-accent font-semibold">
+      <li className="text-xl font-semibold">
       <Link href="/project">Project</Link>
       </li>
-      <li className="text-xl hover:text-accent font-semibold">
+      <li className="text-xl font-semibold">
       <Link href="/about">About</Link>
       </li>
-      <li className="text-xl hover:text-accent font-semibold">
+      <li className="text-xl font-semibold">
       <Link href={"/contact"}>Contact</Link>
       </li>
     </ul>

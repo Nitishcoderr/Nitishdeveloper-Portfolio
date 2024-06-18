@@ -18,7 +18,7 @@ const technologies = [
 
 const About = () => {
   return (
-    <div className='py-12 px-4 bg-background text-text'>
+    <div className='py-12 px-4 navGrd text-text'>
       <h3 className='text-3xl text-center'>ABOUT ME</h3>
       <p className="text-center py-6">
         Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.

@@ -1,55 +1,26 @@
-"use client";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import Image from "next/image";
-import Link from "next/link";
-import projectData from "@/data/projectData.json";
+import ProjectCard from '@/components/ProjectCard';
 
-const page = () => {
+const ProjectMain = () => {
   return (
-    <div className="pt-12 pb-10 bg-background text-text">
-      <div className="flex justify-center items-center flex-wrap gap-5">
-        {projectData.projects.map((item) => (
-          <CardContainer key={item.id} className="inter-var">
-            <CardBody className="bg-white relative group/card hover:shadow-2xl hover:shadow-accent/[0.1] dark:bg-black dark:border-text/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
-              <CardItem translateZ="50" className="text-xl font-bold text-text">
-                {item.name}
-              </CardItem>
-              <CardItem
-                as="p"
-                translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
-              >
-                Hover over this card to unleash the power of CSS perspective
-              </CardItem>
-              <CardItem translateZ="100" className="w-full mt-4">
-                <Image
-                  src={item.websiteImg}
-                  height="1000"
-                  width="1000"
-                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="thumbnail"
-                />
-              </CardItem>
-              <div className="flex justify-between items-center mt-20">
-                <CardItem
-                  translateZ={20}
-                  as={Link}
-                  href={item.websiteLink}
-                  target="__blank"
-                  className="px-4 py-2 rounded-xl text-xs font-normal text-primary"
-                >
-                  Live Link →
-                </CardItem>
-                <CardItem translateZ={20} as="button" className="px-4 py-2 rounded-xl bg-accent text-white text-xs font-bold">
-                  <Link href={`/project/${item.id}`}>Case Study</Link>
-                </CardItem>
-              </div>
-            </CardBody>
-          </CardContainer>
-        ))}
+    <div className="relative  pt-[12.5rem]">
+      <div className="w-full h-full absolute overflow-hidden bottom-0">
+        <div className="proShape1"></div>
+        <div className="proShape2"></div>
+        <div className="proShape3"></div>
+        <div className="proShape4"></div>
+      </div>
+      <div className="relative px-24">
+        <div className='px-40'>
+        <h4 className='text-6xl font-bold leading-snug'>
+The work we do, <br />
+and the people we help.</h4>
+        </div>
+        <div className="mt-12">
+        <ProjectCard />
+        </div>
       </div>
     </div>
   );
 };
 
-export default page;
+export default ProjectMain;
