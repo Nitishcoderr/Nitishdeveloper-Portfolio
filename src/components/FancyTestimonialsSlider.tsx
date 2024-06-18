@@ -45,7 +45,7 @@ export default function FancyTestimonialsSlider({ testimonials }: { testimonials
               <Transition
                 key={index}
                 show={active === index}
-                className="absolute inset-0 h-full -z-10"
+                
                 enter="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
                 enterFrom="opacity-0 -rotate-[60deg]"
                 enterTo="opacity-100 rotate-0"
