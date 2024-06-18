@@ -19,7 +19,7 @@ export const Banner = () => {
         <h4 className="text-4xl  sm:text-6xl font-bold text-white mt-4">
         Nitish Chaurasiya
         </h4>
-        <p className="text-white mt-4 text-xl leading-loose">Full Stack Developer. <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className="text-white mt-4 text-xl leading-loose">Full Stack Developer. <br/>Nitish ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     </div>
     </section>
