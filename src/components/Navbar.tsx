@@ -10,7 +10,7 @@ import { usePathname } from 'next/navigation';
 
 
 export function Navbar() {
-  const pathname = usePathname();
+  const pathname = usePathname(); 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleDrawerToggle = () => {
@@ -36,7 +36,7 @@ export function Navbar() {
 
   return (
     <>
-    <div className={`fixed w-full z-10 sm:flex flex-row items-center justify-between px-12 transition-all duration-300 text-black h-36 ${isScrolled ? 'bg-white text-black' : (isHomePage ? 'bg-transparent text-white' : 'bg-white text-black')}`}>
+    <div className={`hidden fixed w-full z-10 sm:flex flex-row items-center justify-between px-12 transition-all duration-300 h-36 ${isScrolled ? 'bg-white text-black' : (isHomePage ? 'bg-transparent text-white' : 'bg-white text-black')}`}>
     <div className="mb-4 pt-20 sm:mb-0">
     <Link href="/">
       <Image  src="/me/logo.png"
