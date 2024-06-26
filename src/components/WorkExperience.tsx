@@ -7,11 +7,11 @@ const WorkExperience = () => {
         <div className="exShape3"></div>
         <div className="exShape4"></div>
       </div>
-      <div className="py-12 px-48 text-white relative">
-        <h4 className="text-6xl font-extrabold px-24">Experiences 💪</h4>
-        <div className="flex items-center w-full mt-10">
+      <div className="py-12 md:px-48 text-white relative">
+        <h4 className="md:text-6xl font-extrabold text-4xl px-3 md:px-24">Experiences 💪</h4>
+        <div className="flex items-center flex-col md:flex-row w-full mt-10">
           {/* box1 */}
-          <div className="flex w-[50%] px-24 justify-center flex-col pt-12">
+          <div className="flex w-full md:w-[50%] px-2 md:px-24 justify-center flex-col pt-12">
             <div className="borderTile">
               <p className="text-3xl font-semibold">Work Experience</p>
             </div>
@@ -27,7 +27,7 @@ const WorkExperience = () => {
             </div>
           </div>
           {/*  box2 */}
-          <div className="flex w-[50%] px-24 justify-center flex-col pt-12">
+          <div className="flex w-full md:w-[50%] px-2 md:px-24 justify-center flex-col pt-12">
             <div className="borderTile">
               <p className="text-3xl font-semibold">Work Experience</p>
             </div>
@@ -45,10 +45,10 @@ const WorkExperience = () => {
         </div>
       </div>
       {/* -----skills */}
-      <div className="pb-12 px-48 text-white relative">
-        <div className="flex items-center w-full mt-10">
+      <div className="pb-12 md:px-48 text-white relative">
+        <div className="flex items-center flex-col md:flex-row w-full mt-10">
           {/* box1 */}
-          <div className="flex w-[50%] px-24 justify-center flex-col pt-12">
+          <div className="flex w-full md:w-[50%] px-2 md:px-24 justify-center flex-col pt-12">
             <div className="borderTile">
               <p className="text-3xl font-semibold">Skills</p>
             </div>
@@ -64,7 +64,7 @@ const WorkExperience = () => {
             </div>
           </div>
           {/*  box2 */}
-          <div className="flex w-[50%] px-24 justify-center flex-col pt-12">
+          <div className="flex w-full md:w-[50%] px-2 md:px-24 justify-center flex-col pt-12">
             <div className="borderTile">
               <p className="text-3xl font-semibold">Tools I use every day</p>
             </div>

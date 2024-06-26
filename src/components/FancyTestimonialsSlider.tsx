@@ -35,10 +35,10 @@ export default function FancyTestimonialsSlider({ testimonials }: { testimonials
 
   return (
     <div className='w-full bg-white'>
-    <div className="mx-auto text-center w-1/2 px-12">
+    <div className="mx-auto text-center w-full md:w-1/2 px-2 md:px-12">
       {/* Testimonial image */}
       <div className="relative h-32">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-indigo-500/25 before:via-indigo-500/5 before:via-25% before:to-indigo-500/0 before:to-75% before:rounded-full before:-z-10">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full md:w-[480px] h-[480px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-indigo-500/25 before:via-indigo-500/5 before:via-25% before:to-indigo-500/0 before:to-75% before:rounded-full before:-z-10">
           <div className="h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_20%,theme(colors.white))]">
 
             {testimonials.map((testimonial, index) => (

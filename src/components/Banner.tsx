@@ -10,7 +10,7 @@ export const Banner = () => {
         <div className="shape2"></div>
         <div className="shape3"></div>
     </div>
-    <div className="mx-w-[1170px] flex items-center flex-col justify-center">
+    <div className="mx-w-[1170px] relative flex items-center flex-col justify-center">
     <Image className="object-cover rounded-full sm:h-auto" width="200" height="200" src="/me/me.jpg" alt="Article 01" />
     <div className='flex items-center text-center justify-center flex-col mt-12 leading-loose'>
         <h4 className="text-4xl  sm:text-6xl font-bold text-white">
@@ -19,7 +19,7 @@ export const Banner = () => {
         <h4 className="text-4xl  sm:text-6xl font-bold text-white mt-4">
         Nitish Chaurasiya
         </h4>
-        <p className="text-white mt-4 text-xl leading-loose">Full Stack Developer. <br/>Nitish ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className="text-white mt-4 text-xl leading-loose">Full Stack Developer. <br/>Nitish ipsum dolor sit amet, consectetur adipiscing elit, <br className='hidden md:block' />sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     </div>
     </section>

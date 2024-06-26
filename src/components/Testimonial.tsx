@@ -30,7 +30,7 @@
     return (
       <div className='bg-white py-24'>
         <div className="clientborderTile">
-         <h3 className='text-5xl font-extrabold text-center mb-20'>Clients Feedbacks 😍</h3>
+         <h3 className='md:text-5xl text-4xl  font-extrabold text-center mb-20'>Clients Feedbacks 😍</h3>
         </div>
         <FancyTestimonialsSlider testimonials={testimonials} />
       </div>
