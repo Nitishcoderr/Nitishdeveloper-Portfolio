@@ -27,7 +27,7 @@ const MobileDrawer = ({ isOpen, onClose }:any) => {
       <Link onClick={handleLinkClick} href="/project">Project</Link>
       </li>
       <li className="text-3xl hover:text-accent hover:font-semibold">
-      <Link onClick={handleLinkClick} href="/about">About</Link>
+      <Link onClick={handleLinkClick} href="/blog">Blog</Link>
       </li>
       <li className="text-3xl hover:text-accent hover:font-semibold">
       <Link onClick={handleLinkClick} href={"/contact"}>Contact</Link>

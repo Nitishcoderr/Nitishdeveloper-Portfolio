@@ -55,7 +55,7 @@ export function Navbar() {
       <Link href="/project">Project</Link>
       </li>
       <li className="text-xl font-semibold">
-      <Link href="/about">About</Link>
+      <Link href="/blog">Blog</Link>
       </li>
       <li className="text-xl font-semibold">
       <Link href={"/contact"}>Contact</Link>
