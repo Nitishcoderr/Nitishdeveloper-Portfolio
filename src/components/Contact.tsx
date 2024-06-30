@@ -13,9 +13,9 @@ export function Contact() {
     console.log('Form submitted');
   };
   return (
-    <div className="flex py-12 px-72">
+    <div className="flex flex-col md:flex-row py-12 px-12 md:px-72">
       {/* box-1 */}
-    <div className="py-12 px-4 w-[50%]">
+    <div className="py-12 px-4 w-full md:w-[50%]">
       <div className="max-w-3xl w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
         <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">Connect Me!</h2>
         <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
@@ -61,7 +61,7 @@ export function Contact() {
       </div>
     </div>
 {/* box-2 */}
-<div className="w-[35%] px-6 py-12 rounded-md bg-white shadow-md ml-24 ">
+<div className="e-full md:w-[35%] md:px-6 py-12 rounded-md bg-white shadow-md md:ml-24 ">
   <div className="max-w-3xl w-full flex flex-col justify-center rounded-none md:rounded-2xl p-4 md:p-8">
   <div className="">
     <MdOutlineVerifiedUser fontSize={"2rem"}/>

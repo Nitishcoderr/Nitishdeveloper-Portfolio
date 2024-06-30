@@ -6,6 +6,7 @@
         "overview": "An online platform for buying and selling various products.",
         "description": "This project includes features such as user authentication, product listing, shopping cart, checkout, and order management.",
         "websiteLink": "https://example.com/ecommerce",
+        "websiteBanner":"/projectbanner/jalebi.png",
         "websiteImg": "/project/jalebi.png",
         "toolsUsed": ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe API"]
       },
@@ -15,6 +16,7 @@
         "overview": "A web application for managing tasks and projects.",
         "description": "Users can create tasks, assign them to team members, set deadlines, track progress, and generate reports.",
         "websiteLink": "https://example.com/taskapp",
+        "websiteBanner":"/projectbanner/jalebi.png",
         "websiteImg": "/project/nge.png",
         "toolsUsed": ["React", "Firebase", "Material-UI", "Redux Toolkit"]
       },
@@ -24,6 +26,7 @@
         "overview": "A dashboard for managing social media accounts and analyzing performance.",
         "description": "Users can schedule posts, monitor engagement metrics, and generate insights using data visualization tools.",
         "websiteLink": "https://example.com/socialdashboard",
+        "websiteBanner":"/projectbanner/jalebi.png",
         "websiteImg": "/project/jalebi.png",
         "toolsUsed": ["React", "Node.js", "Express", "MongoDB", "Chart.js", "OAuth"]
       }
