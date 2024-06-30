@@ -1,0 +1,133 @@
+{
+    
+    "blog":[
+        {
+            "id":1,
+            "courseTitle": "Building Modern Web Apps with JavaScript and GraphQL",
+            "category": "Development",
+            "image": "/blog/jalebi.png",
+            "description":"JavaScript is a high-level, interpreted language that runs in the browser environment. It provides dynamic and interactive features, making websites come alive. Understanding the fundamentals of JavaScript is the first step towards mastering the language",
+            "date": "19 July 2023",
+            "sections": [
+              {
+                "title": "Introduction to JavaScript",
+                "image": "/blog/jalebi.png",
+                "description": "JavaScript is a high-level, interpreted language that runs in the browser environment. It provides dynamic and interactive features, making websites come alive. Understanding the fundamentals of JavaScript is the first step towards mastering the language:",
+                "topics": [
+                  "Variables and data types",
+                  "Control flow and loops",
+                  "Functions and scope"
+                ]
+              },
+              {
+                "title": "Working with JavaScript Objects",
+                "description": "Objects are at the heart of JavaScript, allowing you to create complex data structures and manipulate them with ease. In this section, you'll learn about object literals, constructor functions, prototypal inheritance, and how to leverage objects to build scalable applications."
+              },
+              {
+                "title": "Functional Programming in JavaScript",
+                "description": "Functional programming is a paradigm that emphasizes immutability, pure functions, and higher-order operations. JavaScript provides robust support for functional programming techniques, enabling you to write cleaner, more maintainable code. Dive into concepts like:",
+                "topics": [
+                  "Pure functions and immutability",
+                  "Higher-order functions and function composition",
+                  "Declarative programming with Array methods"
+                ]
+              },
+              {
+                "title": "Asynchronous JavaScript",
+                "description": "Asynchronous programming is crucial for handling time-consuming tasks like network requests or file operations. JavaScript offers several patterns and APIs, such as callbacks, promises, and async/await, to manage asynchronous code effectively. Explore these techniques to make your applications more responsive and performant."
+              },
+              {
+                "title": "JavaScript Frameworks and Libraries",
+                "description": "JavaScript frameworks and libraries like React, Angular, and Vue.js have revolutionized web development by providing powerful abstractions and tools. In this section, we'll explore the features and concepts of these frameworks and how they can simplify complex application development.",
+                "frameworks": [
+                  {
+                    "name": "React",
+                    "features": [
+                      "Component-based architecture",
+                      "Virtual DOM"
+                    ]
+                  },
+                  {
+                    "name": "Angular",
+                    "features": [
+                      "Two-way data binding",
+                      "Dependency injection"
+                    ]
+                  },
+                  {
+                    "name": "Vue.js",
+                    "features": [
+                      "Lightweight framework",
+                      "Focus on simplicity"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+        {
+            "id":2,
+            "courseTitle": "Building Modern Web Apps with React and GraphQL",
+            "category": "Development",
+            "image": "/blog/jalebi.png",
+            "date": "19 July 2023",
+            "sections": [
+              {
+                "title": "Introduction to JavaScript",
+                "image": "/blog/jalebi.png",
+                "description": "JavaScript is a high-level, interpreted language that runs in the browser environment. It provides dynamic and interactive features, making websites come alive. Understanding the fundamentals of JavaScript is the first step towards mastering the language:",
+                "topics": [
+                  "Variables and data types",
+                  "Control flow and loops",
+                  "Functions and scope"
+                ]
+              },
+              {
+                "title": "Working with JavaScript Objects",
+                "description": "Objects are at the heart of JavaScript, allowing you to create complex data structures and manipulate them with ease. In this section, you'll learn about object literals, constructor functions, prototypal inheritance, and how to leverage objects to build scalable applications."
+              },
+              {
+                "title": "Functional Programming in JavaScript",
+                "description": "Functional programming is a paradigm that emphasizes immutability, pure functions, and higher-order operations. JavaScript provides robust support for functional programming techniques, enabling you to write cleaner, more maintainable code. Dive into concepts like:",
+                "topics": [
+                  "Pure functions and immutability",
+                  "Higher-order functions and function composition",
+                  "Declarative programming with Array methods"
+                ]
+              },
+              {
+                "title": "Asynchronous JavaScript",
+                "description": "Asynchronous programming is crucial for handling time-consuming tasks like network requests or file operations. JavaScript offers several patterns and APIs, such as callbacks, promises, and async/await, to manage asynchronous code effectively. Explore these techniques to make your applications more responsive and performant."
+              },
+              {
+                "title": "JavaScript Frameworks and Libraries",
+                "description": "JavaScript frameworks and libraries like React, Angular, and Vue.js have revolutionized web development by providing powerful abstractions and tools. In this section, we'll explore the features and concepts of these frameworks and how they can simplify complex application development.",
+                "frameworks": [
+                  {
+                    "name": "React",
+                    "features": [
+                      "Component-based architecture",
+                      "Virtual DOM"
+                    ]
+                  },
+                  {
+                    "name": "Angular",
+                    "features": [
+                      "Two-way data binding",
+                      "Dependency injection"
+                    ]
+                  },
+                  {
+                    "name": "Vue.js",
+                    "features": [
+                      "Lightweight framework",
+                      "Focus on simplicity"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+          
+  ]
+  }
