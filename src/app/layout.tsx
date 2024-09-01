@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <meta name="cryptomus" content="57098dc6" />
       </head>
       <body className={inter.className}>
       <div className="relative w-full flex items-center justify-center">
