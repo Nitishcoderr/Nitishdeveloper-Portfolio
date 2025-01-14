@@ -4,7 +4,7 @@ const LogoLink = () => {
   return (
     <div >
     <Link href="/">
-      <Image  src="/me/logo.png"
+      <Image  src="/me/me1.jpg"
                   height="50"
                   width="50"
                   className=" rounded-full"
