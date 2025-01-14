@@ -29,12 +29,11 @@ export default function projectPage({ params }: any) {
 
   return (
     <>
-    <section className="relative w-full">
+    <section className="relative w-full md:mt-16">
       <Image
         className="w-full"
         alt={project.name}
         src={project.websiteBanner}
-        layout="responsive"
         width={1000}
         height={1000}
       />

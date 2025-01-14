@@ -12,8 +12,8 @@ const ProjectMain = () => {
       <div className="relative px-3 md:px-24">
         <div className='px-3 md:px-40'>
         <h4 className='text-3xl md:text-6xl text-center md:text-start font-bold leading-snug'>
-The work we do, <br />
-and the people we help.</h4>
+The work I done, <br />
+and the people I help.</h4>
         </div>
         <div className="mt-12">
         <ProjectCard />

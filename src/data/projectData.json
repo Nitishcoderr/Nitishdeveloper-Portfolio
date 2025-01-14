@@ -1,35 +1,54 @@
 {
-    "projects": [
-      {
-        "id":1,
-        "name": "Jalebi",
-        "overview": "An online platform for buying and selling various products.",
-        "description": "This project includes features such as user authentication, product listing, shopping cart, checkout, and order management.",
-        "websiteLink": "https://example.com/ecommerce",
-        "websiteBanner":"/projectbanner/jalebi.png",
-        "websiteImg": "/project/jalebi.png",
-        "toolsUsed": ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe API"]
-      },
-      {
-        "id":2,
-        "name": "Task Management App",
-        "overview": "A web application for managing tasks and projects.",
-        "description": "Users can create tasks, assign them to team members, set deadlines, track progress, and generate reports.",
-        "websiteLink": "https://example.com/taskapp",
-        "websiteBanner":"/projectbanner/jalebi.png",
-        "websiteImg": "/project/nge.png",
-        "toolsUsed": ["React", "Firebase", "Material-UI", "Redux Toolkit"]
-      },
-      {
-        "id":3,
-        "name": "Social Media Dashboard",
-        "overview": "A dashboard for managing social media accounts and analyzing performance.",
-        "description": "Users can schedule posts, monitor engagement metrics, and generate insights using data visualization tools.",
-        "websiteLink": "https://example.com/socialdashboard",
-        "websiteBanner":"/projectbanner/jalebi.png",
-        "websiteImg": "/project/jalebi.png",
-        "toolsUsed": ["React", "Node.js", "Express", "MongoDB", "Chart.js", "OAuth"]
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "id": 1,
+      "name": "Jalebi Design",
+      "overview": "A responsive website showcasing designs for websites and mobile applications.",
+      "description": "Built using React to ensure scalability and enhanced user experience, highlighting creative design solutions.",
+      "websiteLink": "https://jalebidesign.com/",
+      "websiteBanner": "/projectbanner/jalebi-banner.png",
+      "websiteImg": "/project/jalebi.png",
+      "toolsUsed": ["React", "Tailwind CSS", "JavaScript", "Redux"]
+    },
+    {
+      "id": 2,
+      "name": "Digitlay Resource Hub",
+      "overview": "A comprehensive HR service provider platform specializing in staffing solutions.",
+      "description": "Leveraged React to optimize user interaction and accommodate dynamic candidate requirements.",
+      "websiteLink": "https://www.digitlayresourcehub.com/",
+      "websiteBanner": "/projectbanner/resource-banner.png",
+      "websiteImg": "/project/digi.png",
+      "toolsUsed": ["React", "Tailwind CSS", "Redux Toolkit", "RESTful APIs"]
+    },
+    {
+      "id": 3,
+      "name": "Wave",
+      "overview": "A government initiative promoting India as a global hub for cost-effective content development.",
+      "description": "Built using React to highlight India's creative industry potential and vast talent pool in the Media & Entertainment sector.",
+      "websiteLink": "https://wavesindia.org/",
+      "websiteBanner": "/projectbanner/wave-banner.png",
+      "websiteImg": "/project/wave.png",
+      "toolsUsed": ["React", "Tailwind CSS", "JavaScript", "RESTful APIs"]
+    },
+    {
+      "id": 4,
+      "name": "Jusplay",
+      "overview": "A toy rental service platform offering a diverse range of high-quality toys for children.",
+      "description": "Resolved critical bugs, improving platform stability and user experience. Built on a Pay Per Use model with sustainability initiatives.",
+      "websiteLink": "https://www.jusplaytoys.com/",
+      "websiteBanner": "/projectbanner/jusplay-banner.png",
+      "websiteImg": "/project/jusplay.png",
+      "toolsUsed": ["Next.js", "Shadcn", "RESTful APIs","Sanity", "Redux Toolkit"]
+    },
+    {
+      "id": 5,
+      "name": "Digitlay",
+      "overview": "A service-based company specializing in website and application development.",
+      "description": "Developed their website using React and Shadcn, ensuring a modern, scalable, and user-friendly platform tailored to their business needs.",    
+      "websiteLink": "https://www.digitlay.com/",
+      "websiteBanner": "/projectbanner/digitlay-banner.png",
+      "websiteImg": "/project/digitlay.png",
+      "toolsUsed": ["Next.js", "Shadcn", "RESTful APIs","Sanity", "Redux Toolkit"]
+    }
+  ]
+}

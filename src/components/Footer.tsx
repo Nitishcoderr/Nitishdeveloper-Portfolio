@@ -16,7 +16,7 @@ const Footer = () => {
         Let’s get to work.👋📫
         </h4>
         <div className='mt-12'>
-          <button className='bg-black text-white px-4 py-2'>Say Hello</button>
+          <Link className='bg-black text-white px-4 py-2' href="/contact">Say Hello</Link>
         </div>
       </div>
       <div className="flex flex-col md:flex-row relative px-3 md:px-12 justify-items-center">
@@ -27,17 +27,14 @@ const Footer = () => {
       <div className="px-3">
         <p className=' text-3xl font-bold'>Social</p>
         <div className='flex items-center justify-center mt-6'>
-          <Link href='/' className='mr-2  '>
+          <Link target='_blank' href='https://www.linkedin.com/in/nitish-chaurasiya/' className='mr-2  '>
             <FaLinkedin className='hover:-translate-y-3 transition-all duration-500 flex items-center justify-center w-12 h-12 rounded-full border-2 p-2' fontSize="2rem" color='black' />
           </Link>
-          <Link href='/' className='mr-2  '>
+          <Link target='_blank' href='https://www.instagram.com/nitish_frontend_dev/' className='mr-2  '>
             <FaInstagram className='hover:-translate-y-3 transition-all duration-500 flex items-center justify-center w-12 h-12 rounded-full border-2 p-2' fontSize="2rem" color='black' />
           </Link>
-          <Link href='/' className='mr-2 '>
+          <Link target='_blank' href='https://github.com/Nitishcoderr/' className='mr-2 '>
             <FaGithub className='hover:-translate-y-3 transition-all duration-500 flex items-center justify-center w-12 h-12 rounded-full border-2 p-2' fontSize="2rem" color='black' />
-          </Link>
-          <Link href='/' className='mr-2 '>
-            <FaTwitter className='hover:-translate-y-3 transition-all duration-500 flex items-center justify-center w-12 h-12 rounded-full border-2 p-2' fontSize="2rem" color='black' />
           </Link>
         </div>
       </div>

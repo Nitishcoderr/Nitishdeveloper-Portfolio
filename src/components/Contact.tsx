@@ -13,7 +13,7 @@ export function Contact() {
     console.log('Form submitted');
   };
   return (
-    <div className="flex flex-col md:flex-row py-12 px-12 md:px-72">
+    <div className="flex flex-col md:flex-row py-12 px-12 md:px-32">
       {/* box-1 */}
     <div className="py-12 px-4 w-full md:w-[50%]">
       <div className="max-w-3xl w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
@@ -61,7 +61,7 @@ export function Contact() {
       </div>
     </div>
 {/* box-2 */}
-<div className="e-full md:w-[35%] md:px-6 py-12 rounded-md bg-white shadow-md md:ml-24 ">
+<div className="e-full md:w-[50%] md:px-6 py-12 rounded-md bg-white shadow-md md:ml-24 ">
   <div className="max-w-3xl w-full flex flex-col justify-center rounded-none md:rounded-2xl p-4 md:p-8">
   <div className="">
     <MdOutlineVerifiedUser fontSize={"2rem"}/>
@@ -70,19 +70,20 @@ export function Contact() {
   </div>
   <div className="mt-10">
     <p className=''>Email</p>
-    <Link className='font-bold text-xl' href="#">
-    info@staticmania.com
-    </Link>
+    <Link className='font-bold text-xl' href="mailto:niitshchaurasiac555@gmail.com">
+    niitshchaurasiac555@gmail.com
+</Link>
+
   </div>
   <div className="mt-10">
     <p className=''>Phone</p>
-    <Link className='font-bold text-xl' href="#">
+    <Link className='font-bold text-xl' href="tel:+917565069986">
     +91 7565069986
-    </Link>
+</Link>
   </div>
   <div className="mt-10">
     <p className=''>LinkedIn Link</p>
-    <Link className='font-bold text-xl' href="#">
+    <Link className='font-bold text-xl' target='_blank' href='https://www.linkedin.com/in/nitish-chaurasiya/'>
     linkedIn.com
     </Link>
   </div>
