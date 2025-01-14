@@ -8,48 +8,48 @@ export const Banner = () => {
   const words = [
     {
       text: "Crafting",
-       className: "text-2xl text-white",
+       className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "Seamless",
-       className: "text-2xl text-white",
+       className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "Experiences",
-       className: "text-2xl text-white",
+       className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "with",
-       className: "text-2xl text-white",
+       className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "the",
-       className: "text-2xl text-white",
+       className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "Power",
-       className: "text-2xl text-white",
+       className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "of",
-       className: "text-2xl text-white",
+       className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "Modern",
-      className: "text-2xl text-white",
+      className: "text-xsm md:text-2xl text-white",
     },
     {
       text: "Frontend",
-      className: "text-blue-500 dark:text-blue-500 text-xl",
+      className: "text-[#3b82f6] text-xsm md:text-2xl",
     },
     {
       text: "Technologies",
-      className: "text-2xl text-white",
+      className: "text-xsm md:text-2xl text-white",
     },
   ];
   
   return (
-    <section className='bg-[#060a11] relative lg:pb-6 xl:pb-8 pt-16 sm:pt-20 pb-20 sm:h-[100vh]'>
+    <section className='bg-[#060a11] relative lg:pb-6 xl:pb-8 pt-16 sm:pt-20 2xl:pt-52 pb-20 sm:h-[100vh]'>
     <div className='overflow-hidden bottom-0 absolute w-full h-full'>
         <div className="shape1"></div>
         <div className="shape2"></div>
@@ -61,10 +61,9 @@ export const Banner = () => {
         <h4 className="md:text-xl xl:text-4xl sm:text-6xl font-bold text-white">
             👋 Hey there,
         </h4>
-        <h4 className="md:text-xl xl:text-4xl sm:text-6xl font-bold text-white mt-4">
+        <h4 className="md:text-xl xl:text-4xl 2xl:text-5xl sm:text-6xl font-bold text-white mt-4">
         Nitish Chaurasiya
         </h4>
-        <p className="text-white mt-4 text-xl leading-loose">Frontend Developer. </p>
         <TypewriterEffectSmooth words={words} />
     </div>
     </div>
