@@ -1,6 +1,6 @@
-  import TestimonialImg01 from '../../public/testimonial-01.jpg'
-  import TestimonialImg02 from '../../public/testimonial-02.jpg'
-  import TestimonialImg03 from '../../public/testimonial-03.jpg'
+  import TestimonialImg01 from '../../public/sunil.jpg'
+  import TestimonialImg02 from '../../public/Saurabh-Mishra.webp'
+  import TestimonialImg03 from '../../public/Rajesh-Verma.jpg'
   import FancyTestimonialsSlider from './FancyTestimonialsSlider'
 
   
