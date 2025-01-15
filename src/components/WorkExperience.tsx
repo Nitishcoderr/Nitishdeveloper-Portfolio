@@ -49,11 +49,11 @@ const WorkExperience = () => {
             </div>
             <div className="mt-12 leading-loose ">
               <p className="font-bold text-2xl">Frontend Development</p>
-              <p className="mt-6 font-semibold text-xl">React, Next.js, JavaScript, TypeScript, Sanity, Prisma, Drizzle ORM, Tanstack</p>
+              <p className="mt-6 font-semibold text-xl">React, Next.js, Zustand, Redux Toolkit, JavaScript, TypeScript, Sanity, Prisma, Drizzle ORM, Tanstack</p>
             </div>
             <div className="mt-12 leading-loose ">
               <p className="font-bold text-2xl">UI Libraries</p>
-              <p className="mt-6 font-semibold text-xl">Shadcn, MaterialUi, GSAP, Threejs</p>
+              <p className="mt-6 font-semibold text-xl">Shadcn, Aceternity, MaterialUi, GSAP, Threejs</p>
             </div>
           </div>
           {/*  box2 */}
