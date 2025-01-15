@@ -8,7 +8,12 @@
       "websiteLink": "https://jalebidesign.com/",
       "websiteBanner": "/projectbanner/jalebi-banner.png",
       "websiteImg": "/project/jalebi.png",
-      "toolsUsed": ["React", "Tailwind CSS", "JavaScript", "Redux"]
+      "toolsUsed": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Redux"
+      ]
     },
     {
       "id": 2,
@@ -18,7 +23,12 @@
       "websiteLink": "https://www.digitlayresourcehub.com/",
       "websiteBanner": "/projectbanner/resource-banner.png",
       "websiteImg": "/project/digi.png",
-      "toolsUsed": ["React", "Tailwind CSS", "Redux Toolkit", "RESTful APIs"]
+      "toolsUsed": [
+        "React",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "RESTful APIs"
+      ]
     },
     {
       "id": 3,
@@ -28,7 +38,12 @@
       "websiteLink": "https://wavesindia.org/",
       "websiteBanner": "/projectbanner/wave-banner.png",
       "websiteImg": "/project/wave.png",
-      "toolsUsed": ["React", "Tailwind CSS", "JavaScript", "RESTful APIs"]
+      "toolsUsed": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "RESTful APIs"
+      ]
     },
     {
       "id": 4,
@@ -38,17 +53,29 @@
       "websiteLink": "https://www.jusplaytoys.com/",
       "websiteBanner": "/projectbanner/jusplay-banner.png",
       "websiteImg": "/project/jusplay.png",
-      "toolsUsed": ["Next.js", "Shadcn", "RESTful APIs","Sanity", "Redux Toolkit"]
+      "toolsUsed": [
+        "Next.js",
+        "Shadcn",
+        "RESTful APIs",
+        "Sanity",
+        "Redux Toolkit"
+      ]
     },
     {
-      "id": 5,
-      "name": "Digitlay",
+      "id": 6,
+      "name": "Slambas",
       "overview": "A service-based company specializing in website and application development.",
-      "description": "Developed their website using React and Shadcn, ensuring a modern, scalable, and user-friendly platform tailored to their business needs.",    
-      "websiteLink": "https://www.digitlay.com/",
-      "websiteBanner": "/projectbanner/digitlay-banner.png",
-      "websiteImg": "/project/digitlay.png",
-      "toolsUsed": ["Next.js", "Shadcn", "RESTful APIs","Sanity", "Redux Toolkit"]
+      "description": "Developed their website using React and DaizyUi, ensuring a modern, scalable, and user-friendly platform tailored to their business needs.",
+      "websiteLink": "https://www.slambas.com/",
+      "websiteBanner": "/projectbanner/slambas-banner.png",
+      "websiteImg": "/project/slambas.png",
+      "toolsUsed": [
+        "Next.js",
+        "Daizy Ui",
+        "RESTful APIs",
+        "Sanity",
+        "Redux Toolkit"
+      ]
     }
   ]
 }

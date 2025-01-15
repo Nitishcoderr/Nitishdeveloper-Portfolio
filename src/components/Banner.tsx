@@ -8,31 +8,31 @@ export const Banner = () => {
   const words = [
     {
       text: "Seamless",
-       className: "text-xsm md:text-2xl text-white",
+       className: "text-xsm md:text-2xl 2xl:text-5xl text-white",
     },
     {
       text: "Digital",
-       className: "text-xsm md:text-2xl text-white",
+       className: "text-xsm md:text-2xl 2xl:text-5xl text-white",
     },
     {
       text: "Experiences",
-       className: "text-xsm md:text-2xl text-white",
+       className: "text-xsm md:text-2xl 2xl:text-5xl text-white",
     },
     {
       text: "with",
-       className: "text-xsm md:text-2xl text-white",
+       className: "text-xsm md:text-2xl 2xl:text-5xl text-white",
     },
     {
       text: "Modern",
-      className: "text-xsm md:text-2xl text-white",
+      className: "text-xsm md:text-2xl 2xl:text-5xl text-white",
     },
     {
       text: "Frontend",
-      className: "text-xsm md:text-2xl text-[#3b82f6]",
+      className: "text-xsm md:text-2xl 2xl:text-5xl text-[#3b82f6]",
     },
     {
       text: "Technologies",
-      className: "text-xsm md:text-2xl text-white",
+      className: "text-xsm md:text-2xl 2xl:text-5xl text-white",
     },
   ];
   

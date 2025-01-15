@@ -21,12 +21,12 @@ const ProjectCard = () => {
             >
               {item.overview}
             </CardItem>
-            <CardItem translateZ="100" className="w-full mt-4">
+            <CardItem translateZ="100" className="w-full mt-4 flex items-center justify-center">
               <Image
                 src={item.websiteImg}
                 height="1000"
                 width="1000"
-                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                className="h-60 w-[90%] md:w-[75%] object-cover rounded-xl "
                 alt="thumbnail"
               />
             </CardItem>
